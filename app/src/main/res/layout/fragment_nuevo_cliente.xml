@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backiee_118787_landscape"
+        tools:context=".activities.NuevoClienteActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.96" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.09" />
+
+        <EditText
+            android:id="@+id/editTextRefNombre"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/nombre_completo"
+            android:inputType="text"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextRefTelefono"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/tel_fono"
+            android:inputType="number"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextRefNombre"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextRefDireccion"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/direcci_n"
+            android:inputType="text"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextRefTelefono"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextIdentificacion"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/identificaci_n"
+            android:inputType="number"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNombreCompleto"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/tel_fono"
+            android:inputType="number"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextIdentificacion"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextTelefonoDeCasa"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/tel_fono_de_casa"
+            android:inputType="number"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTelefono"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextCorreo"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/correo"
+            android:inputType="text"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTelefonoDeCasa"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editTextDireccion"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/direcci_n"
+            android:inputType="text"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextCorreo"
+            android:autofillHints="" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarClientes"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#2196F3"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/nuevo_cliente"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbarClientes"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toEndOf="@+id/atrasIconNC"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.125" />
+
+
+        <ImageView
+            android:id="@+id/atrasIconNC"
+            android:layout_width="53dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="4dp"
+            android:contentDescription="@string/la_vaca_icon"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbarClientes"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icons8_atr_s_100" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50121653" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.95" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="104dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/Portrait"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/guideline12"
+            app:srcCompat="@drawable/profile"
+            tools:srcCompat="@drawable/profile" />
+
+        <EditText
+            android:id="@+id/editTextNombreCompleto"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:autofillHints=""
+            android:backgroundTint="#6F6E6E"
+            android:ems="10"
+            android:foregroundTint="#000000"
+            android:hint="@string/nombre_completo"
+            android:inputType="text"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/referencia"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDireccion" />
+
+        <Button
+            android:id="@+id/OK"
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="#2196F3"
+            android:text="@string/OK"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/guideline4"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/editTextRefDireccion"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

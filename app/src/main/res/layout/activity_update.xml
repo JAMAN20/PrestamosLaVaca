@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ImgViewEditar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.UpdateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backiee_118787_landscape"
+            tools:context=".activities.NuevoClienteActivity">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/tel_fonoa"
+                android:textColor="#424040"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextIdentificacionUpdate" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/tel_fono_de_casas"
+                android:textColor="#424040"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTelefonoUpdate" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/Correo"
+                android:textColor="#424040"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTelefonodeCasaUpdate" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/direcci_ns"
+                android:textColor="#424040"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextCorreoUpdate" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/nombre_completos"
+                android:textColor="#424040"
+                android:layout_marginTop="6dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/tel_fonosa"
+                android:textColor="#424040"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextRefNombreUpdate" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/direcci_nsw"
+                android:textColor="#424040"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextRefTelefonoUpdate" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/identificaci_na"
+                android:textColor="#424040"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNombreCompletoUpdate" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.99" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.08" />
+
+            <EditText
+                android:id="@+id/editTextRefNombreUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="text"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <EditText
+                android:id="@+id/editTextRefTelefonoUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="number"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <EditText
+                android:id="@+id/editTextRefDireccionUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="text"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <EditText
+                android:id="@+id/editTextIdentificacionUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="number"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <EditText
+                android:id="@+id/editTextTelefonoUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="number"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <EditText
+                android:id="@+id/editTextTelefonodeCasaUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="number"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <EditText
+                android:id="@+id/editTextCorreoUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="text"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <EditText
+                android:id="@+id/editTextDireccionUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="text"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarClientes"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#2196F3"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/editar_cliente"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbarClientes"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                app:layout_constraintHorizontal_bias="0.375"
+                app:layout_constraintStart_toEndOf="@+id/atrasIconNC"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.125" />
+
+
+            <ImageView
+                android:id="@+id/atrasIconNC"
+                android:layout_width="53dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="4dp"
+                android:contentDescription="@string/la_vaca_icon"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbarClientes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_atr_s_100" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.50121653" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.95" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="104dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="4dp"
+                android:contentDescription="@string/Portrait"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="@+id/guideline12"
+                app:srcCompat="@drawable/profile"
+                tools:srcCompat="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="360dp"
+                android:layout_height="24dp"
+                android:text="@string/nombre_completoq"
+                android:textColor="#424040"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.482"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <TextView
+                android:id="@+id/txtId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintHorizontal_bias="0.18"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+            <EditText
+                android:id="@+id/editTextNombreCompletoUpdate"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:autofillHints=""
+                android:backgroundTint="#6F6E6E"
+                android:ems="10"
+                android:foregroundTint="#000000"
+                android:inputType="text"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/referencia"
+                android:textColor="#083BD0"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.017"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDireccionUpdate" />
+
+            <Button
+                android:id="@+id/OKU"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="#2196F3"
+                android:text="@string/OKU"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/editTextRefDireccionUpdate"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/ImgViewDelete"
+                android:layout_width="53dp"
+                android:layout_height="42dp"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbarClientes"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/delete" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</LinearLayout>
