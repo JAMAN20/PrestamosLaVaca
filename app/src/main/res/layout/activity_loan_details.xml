@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/backiee_118787_landscape"
-    tools:context=".activities.ClientesActivity">
+    tools:context=".activities.LoanDetailsActivity">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/fecha"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarClientesLista"
+        android:id="@+id/toolbarClientes"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="#2196F3"
@@ -22,28 +35,26 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="40dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="@string/clientes"
+        android:text="@string/detalles_del_pr_stamo"
         android:textColor="@color/white"
         android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarClientesLista"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintHorizontal_bias="0.375"
-        app:layout_constraintStart_toEndOf="@+id/atrasIconCC"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarClientes"
+        app:layout_constraintStart_toEndOf="@+id/atrasIcon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.125" />
 
 
     <ImageView
-        android:id="@+id/atrasIconCC"
+        android:id="@+id/atrasIcon"
         android:layout_width="53dp"
         android:layout_height="42dp"
         android:layout_marginStart="4dp"
         android:contentDescription="@string/FLECHA_ATRAS"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbarClientesLista"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarClientes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icons8_atr_s_100" />
@@ -60,37 +71,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.15" />
+        app:layout_constraintGuide_percent="0.05" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.93" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/listaClientes"
-        android:layout_width="318dp"
-        android:layout_height="560dp"
-        android:layout_marginEnd="-4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarClientesLista"
-        app:layout_constraintVertical_bias="0.20" />
+        app:layout_constraintGuide_percent="0.95"/>
 
     <ImageView
-        android:id="@+id/ImgViewDeleteAll"
-        android:layout_width="53dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="-14dp"
+        android:id="@+id/imageView2"
+        android:layout_width="104dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/delete" />
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarClientes"
+        app:srcCompat="@drawable/profile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

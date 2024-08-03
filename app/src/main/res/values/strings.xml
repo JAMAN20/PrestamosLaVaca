@@ -106,6 +106,8 @@
     <string name="inicio">INICIO</string>
     <string name="fin">FIN</string>
     <string name="actualizar_pr_stamo">Actualizar préstamo</string>
+    <string name="detalles_del_pr_stamo">Detalles del préstamo</string>
+    <string name="fecha">Fecha:</string>
     <string-array name="PaymentFrecuency">
         <item>Pago Diario</item>
         <item>Pago Semanal</item>

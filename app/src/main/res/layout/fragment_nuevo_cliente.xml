@@ -28,8 +28,9 @@
 
         <EditText
             android:id="@+id/editTextRefNombre"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:backgroundTint="#6F6E6E"
             android:ems="10"
             android:foregroundTint="#000000"
@@ -39,13 +40,13 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/textView4"
-            android:autofillHints="" />
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <EditText
             android:id="@+id/editTextRefTelefono"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:backgroundTint="#6F6E6E"
             android:ems="10"
             android:foregroundTint="#000000"
@@ -55,13 +56,13 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/editTextRefNombre"
-            android:autofillHints="" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextRefNombre" />
 
         <EditText
             android:id="@+id/editTextRefDireccion"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:backgroundTint="#6F6E6E"
             android:ems="10"
             android:foregroundTint="#000000"
@@ -71,13 +72,13 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/editTextRefTelefono"
-            android:autofillHints="" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextRefTelefono" />
 
         <EditText
             android:id="@+id/editTextIdentificacion"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:backgroundTint="#6F6E6E"
             android:ems="10"
             android:foregroundTint="#000000"
@@ -87,13 +88,13 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNombreCompleto"
-            android:autofillHints="" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextNombreCompleto" />
 
         <EditText
             android:id="@+id/editTextTelefono"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:backgroundTint="#6F6E6E"
             android:ems="10"
             android:foregroundTint="#000000"
@@ -103,13 +104,13 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/editTextIdentificacion"
-            android:autofillHints="" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextIdentificacion" />
 
         <EditText
             android:id="@+id/editTextTelefonoDeCasa"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:backgroundTint="#6F6E6E"
             android:ems="10"
             android:foregroundTint="#000000"
@@ -119,13 +120,13 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTelefono"
-            android:autofillHints="" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextTelefono" />
 
         <EditText
             android:id="@+id/editTextCorreo"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:backgroundTint="#6F6E6E"
             android:ems="10"
             android:foregroundTint="#000000"
@@ -135,13 +136,13 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTelefonoDeCasa"
-            android:autofillHints="" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextTelefonoDeCasa" />
 
         <EditText
             android:id="@+id/editTextDireccion"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
+            android:autofillHints=""
             android:backgroundTint="#6F6E6E"
             android:ems="10"
             android:foregroundTint="#000000"
@@ -151,8 +152,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.518"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/editTextCorreo"
-            android:autofillHints="" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextCorreo" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbarClientes"
@@ -206,14 +206,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.05" />
+            app:layout_constraintGuide_percent="0.07" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.95" />
+            app:layout_constraintGuide_percent="0.93" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -230,7 +230,7 @@
 
         <EditText
             android:id="@+id/editTextNombreCompleto"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
             android:layout_marginTop="12dp"
             android:autofillHints=""
@@ -249,18 +249,20 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="-14dp"
             android:layout_marginTop="8dp"
             android:text="@string/referencia"
-            android:textColor="#000000"
+            android:textColor="#43739D"
             android:textSize="16sp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/editTextDireccion" />
 
         <Button
             android:id="@+id/OK"
-            android:layout_width="360dp"
+            android:layout_width="340dp"
             android:layout_height="48dp"
             android:layout_marginTop="16dp"
             android:background="#2196F3"

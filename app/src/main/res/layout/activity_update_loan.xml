@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:overScrollMode="never"
+    android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@drawable/backiee_118787_landscape"
-        tools:context=".activities.NuevoClienteActivity">
+        tools:context=".activities.NuevoClienteActivity"
+        android:layout_gravity="top">
 
         <Button
             android:id="@+id/Btn_Guardar"
@@ -24,7 +27,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline3"
             app:layout_constraintTop_toBottomOf="@+id/editTextValorCuota"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.50" />
 
         <TextView
             android:id="@+id/editTextTotal"
@@ -241,7 +244,7 @@
             android:id="@+id/textView19"
             android:layout_width="350dp"
             android:layout_height="24dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="15dp"
             android:text="@string/frecuencia_de_pago"
             android:textColor="#424040"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -254,7 +257,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.96" />
+            app:layout_constraintGuide_percent="0.90" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline12"
@@ -339,6 +342,7 @@
             android:id="@+id/imageView"
             android:layout_width="100dp"
             android:layout_height="78dp"
+            android:layout_marginTop="5dp"
             android:contentDescription="@string/Portrait"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintHorizontal_bias="0.0"
@@ -359,7 +363,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline3"
             app:layout_constraintStart_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/editTextValorCuota"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.50" />
 
         <Spinner
             android:id="@+id/SpnFrecuenciaDePago"
@@ -439,7 +443,7 @@
             android:id="@+id/viewNombreClientePrestamo"
             android:layout_width="171dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="17dp"
             android:text="@string/nombre_completoPrestamo"
             android:textAlignment="textStart"
             android:textColor="#43739D"
@@ -454,6 +458,7 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginStart="12dp"
+            android:layout_marginTop="5dp"
             android:textAlignment="textStart"
             android:textColor="#43739D"
             android:textSize="20sp"
