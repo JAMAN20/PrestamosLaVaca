@@ -11,12 +11,13 @@
         android:id="@+id/listaClientesP"
         android:layout_width="323dp"
         android:layout_height="556dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginEnd="-4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarClientes" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbarClientes"
+        app:layout_constraintVertical_bias="0.20" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarClientes"
