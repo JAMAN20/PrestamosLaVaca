@@ -108,6 +108,22 @@
     <string name="actualizar_pr_stamo">Actualizar préstamo</string>
     <string name="detalles_del_pr_stamo">Detalles del préstamo</string>
     <string name="fecha">Fecha:</string>
+    <string name="fecha_de_vencimientos">Fecha de vencimiento:</string>
+    <string name="status">Status:</string>
+    <string name="totals">Total:</string>
+    <string name="n_mero_de_pagoss">Número de pagos:</string>
+    <string name="ratio_de_inter_s">Ratio de interés:</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="_0">0</string>
+    <string name="_59000_00">$59000.00</string>
+    <string name="_18_00">18.00%</string>
+    <string name="_21_02_2024">21-02-2024</string>
+    <string name="cuotas_pagadas">Cuotas pagadas:</string>
+    <string name="_20">20</string>
+    <string name="_30000_00">$30000.00</string>
+    <string name="lady_dimitrescu">Lady Dimitrescu</string>
+    <string name="balance">Balance:</string>
+    <string name="_1">1</string>
     <string-array name="PaymentFrecuency">
         <item>Pago Diario</item>
         <item>Pago Semanal</item>

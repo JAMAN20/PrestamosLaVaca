@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.payov2.R;
+import com.example.payov2.activities.LoanDetailsActivity;
 import com.example.payov2.activities.UpdateActivity;
 import com.example.payov2.activities.UpdateLoanActivity;
 
@@ -77,7 +78,7 @@ public class ViewLoansAdapter extends RecyclerView.Adapter<ViewLoansAdapter.MyVi
             txtClientDirection = itemView.findViewById(R.id.viewDirectionCliente_viewLoans);
 
             itemView.setOnClickListener(v -> {
-                Intent intent = new Intent(context, UpdateLoanActivity.class);
+                Intent intent = new Intent(context, LoanDetailsActivity.class);
                 intent.putExtra("Loan_Id", txtLoan_Id.getText());
                 intent.putExtra("ClientName", clientFullName.get(getAdapterPosition()).toString());
                 intent.putExtra("ClientDirection", clientDirection.get(getAdapterPosition()).toString());

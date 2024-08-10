@@ -8,6 +8,20 @@
     tools:context=".activities.LoanDetailsActivity">
 
     <TextView
+        android:id="@+id/txtPrestamoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/_1"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarClientes" />
+
+    <TextView
         android:id="@+id/textView119"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +31,7 @@
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
 
     <TextView
         android:id="@+id/textView118"
@@ -149,7 +163,7 @@
         android:id="@+id/txtBalance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_30000_00"
+        android:text="0"
         android:textColor="#2196F3"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -190,7 +204,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Balance:"
+        android:text="@string/balance"
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -200,11 +214,11 @@
         app:layout_constraintTop_toBottomOf="@+id/txtValorCuota" />
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/txtNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Lady Dimitrescu"
+        android:text="@string/lady_dimitrescu"
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -224,7 +238,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
 
     <TextView
         android:id="@+id/txtFrecuenciaPago"
@@ -271,7 +285,7 @@
         android:id="@+id/txtInteres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="$9000.00"
+        android:text="0"
         android:textColor="#2196F3"
         android:textSize="15sp"
         android:textStyle="bold"
